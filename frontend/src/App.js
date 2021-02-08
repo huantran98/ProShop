@@ -8,13 +8,13 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <>
-    <Header />
-    <main>
-      <Container>
-        <h1>Welcome To ProShop</h1>
-      </Container>
-    </main>
-    <Footer />
+      <Header />
+      <main className='py-3'>
+        <Container>
+          <h1>Welcome To ProShop</h1>
+        </Container>
+      </main>
+      <Footer />
     </>
   );
 }
